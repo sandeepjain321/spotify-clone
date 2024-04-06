@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/assets/logo.png" />
+
+    <title>spotify-web player: music for everyone</title>
+  </head>
+  <body>
+    <!-- all content -->
+    <div class="main">
+      <!-- sidebar content -->
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">search</a>
+          </div>
+        </div>
+        <div class="libray">
+          <div class="options">
+            <div class="lib-option nav-option">
+              <img src="/assets/library_icon.png" alt="library" />
+              <a href="#"> your library</a>
+            </div>
+            <div class="icon">
+              <i class="fa-solid fa-plus" id="plus"></i>
+              <i class="fa-solid fa-arrow-right" id="arrow"></i>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="firstbox" style="background-color: #232323">
+              <p>create your first playlist</p>
+              <p class="p2">it's easy, we'll help you</p>
+              <div class="badage"><a href="#">create playlist</a></div>
+            </div>
+            <div class="secondbox" style="background-color: #232323">
+              <p>Let's find some podcasts to follow</p>
+              <p style="font-size: 11px">
+                we'll keep your updated on new episodes
+              </p>
+              <div class="badage2" id="badage">
+                <a href="#">browse pordcast</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content -->
+      <div class="main-content">
+        <!-- nav bar -->
+        <div class="sticky-nav">
+          <div class="arrows">
+            <img src="/assets/backward_icon.png" alt="backward_icon" />
+            <img
+              src="/assets/forward_icon.png"
+              alt="forward_icon"
+              class="hide"
+            />
+          </div>
+          <div class="nav-badages" style="display: flex">
+            <div class="badage3 hide" id="badage">
+              <a href="#">explore premiume</a>
+            </div>
+            <div class="badage4 dark" id="badage dark">
+              <i class="fa-regular fa-circle-down"></i>
+              <a href="#">install app</a>
+            </div>
+            <div class="profile"><i class="fa-regular fa-user"></i></div>
+          </div>
+        </div>
+
+        <!-- crad content -->
+        <h2>Recnetly play</h2>
+        <div class="cards-conainer">
+          <div class="card">
+            <img src="/assets/card1img.jpeg" alt="card 1" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">
+              your daily updated of the most played tracks right...
+            </p>
+          </div>
+        </div>
+
+        <h2>trending now near you</h2>
+        <div class="cards-conainer">
+          <div class="card">
+            <img src="/assets/card2img.jpeg" alt="card 1" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">
+              your daily updated of the most played tracks right...
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/card3img.jpeg" alt="card 1" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">
+              your daily updated of the most played tracks right...
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/card4img.jpeg" alt="card 1" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">
+              your daily updated of the most played tracks right...
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/card2img.jpeg" alt="card 1" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">
+              your daily updated of the most played tracks right...
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/card3img.jpeg" alt="card 1" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">
+              your daily updated of the most played tracks right...
+            </p>
+          </div>
+        </div>
+        <h2>feature charts</h2>
+        <div class="cards-conainer">
+          <div class="card">
+            <img src="/assets/card1img.jpeg" alt="card 1" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">
+              your daily updated of the most played tracks right...
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/card5img.jpeg" alt="card 1" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">
+              your daily updated of the most played tracks right...
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="/assets/card6img.jpeg" alt="card 1" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">
+              your daily updated of the most played tracks right...
+            </p>
+          </div>
+        </div>
+        <div class="foter">
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <!-- music player content -->
+      <div class="music-player">
+        <div class="album"></div>
+        <div class="player">
+          <div class="player-control">
+            <img src="/assets/player_icon1.png" alt="" />
+            <img src="/assets/player_icon2.png" alt="" />
+            <img src="/assets/player_icon3.png" alt="" />
+            <img src="/assets/player_icon4.png" alt="" />
+            <img src="/assets/player_icon5.png" alt="" />
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">00:00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              class="progress-bar"
+              style="background-color: transparent; width: 50%"
+            />
+            <span class="tott-time">3:33</span>
+          </div>
+        </div>
+        <div class="control"></div>
+      </div>
+    </div>
+  </body>
+</html>
